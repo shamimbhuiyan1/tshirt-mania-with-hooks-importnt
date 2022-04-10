@@ -3,6 +3,7 @@ import Home from "./Components/Home/Home";
 import Header from "./Components/Header/Header";
 import { Link, Route, Routes } from "react-router-dom";
 import OrdersReview from "./Components/OrdersReview/OrdersReview";
+import GrandPa from "./Components/GrandPa/GrandPa";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           path="/orderreview"
           element={<OrdersReview></OrdersReview>}
         ></Route>
+        <Route path="/grandpa" element={<GrandPa></GrandPa>}></Route>
       </Routes>
     </div>
   );
